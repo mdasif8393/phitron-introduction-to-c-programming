@@ -2,13 +2,19 @@
 int main(){
 
 
-    int tk = 169;
+    int tk = 69;
 
-    if(tk > 100){
+    if(tk >= 100){
         printf("Burger Khabo");
     }
+    else if(tk >= 50){
+        printf("Fuska Khabo");
+    }
+    else if(tk >= 20){
+        printf("Chips Khabo");
+    }
     else{
-        printf("Burger Khabo na");
+        printf("Kichui khabo na");
     }
 
     return 0;
