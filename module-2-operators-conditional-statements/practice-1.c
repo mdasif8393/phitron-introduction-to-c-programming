@@ -4,7 +4,9 @@
 
 int main(){
 
-    int num = 11;
+    int num ;
+
+    scanf("%d", &num);
 
     if(num % 2 == 0){
         printf("Even number");
