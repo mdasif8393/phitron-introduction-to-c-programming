@@ -1,10 +1,6 @@
-1 I am Sorry
-2 I am Sorry
-3 I am Sorry
-4 I am Sorry
-5 I am Sorry
-6 I am Sorry
-7 I am Sorry
-8 I am Sorry
-9 I am Sorry
-10 I am Sorry
+2
+4
+8
+16
+32
+64
