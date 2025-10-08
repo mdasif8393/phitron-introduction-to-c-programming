@@ -1,10 +1,1 @@
-1, Odd Number
-2, Even Number
-3, Odd Number
-4, Even Number
-5, Odd Number
-6, Even Number
-7, Odd Number
-8, Even Number
-9, Odd Number
-10, Even Number
+12345
