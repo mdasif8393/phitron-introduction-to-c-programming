@@ -3,11 +3,11 @@
 int main()
 {
 
-    char s[10];
+    char s[4];
     scanf("%s", &s);
 
     printf("%s\n", s);
-    printf("%s", s);
+    printf("%d", s[4]);
 
     return 0;
 }
