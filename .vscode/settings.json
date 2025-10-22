@@ -2,6 +2,7 @@
   "files.associations": {
     "*.dbclient-js": "javascript",
     "stdio.h": "c",
-    "xutility": "c"
+    "xutility": "c",
+    "string.h": "c"
   }
 }
