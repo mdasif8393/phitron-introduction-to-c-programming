@@ -6,6 +6,11 @@ int main()
     scanf("%d", &n);
     int a[n];
 
+    for (int i = 0; i < n; i++)
+    {
+        scanf("%d", &a[i]);
+    }
+
     int sum;
     scanf("%d", &sum);
 
@@ -15,12 +20,12 @@ int main()
     {
         for (int j = i + 1; j < n; j++)
         {
-            if (a[i] + a[j] = sum)
+            if (a[i] + a[j] == sum)
             {
-                x = i;
-                y = j;
-                break;
+                x = a[i];
+                y = a[j];
             }
+            break;
         }
     }
 
