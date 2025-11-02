@@ -14,7 +14,7 @@ int main()
     int sum;
     scanf("%d", &sum);
 
-    int x, y;
+    int flag = 0;
 
     for (int i = 0; i < n; i++)
     {
@@ -22,14 +22,19 @@ int main()
         {
             if (a[i] + a[j] == sum)
             {
-                x = a[i];
-                y = a[j];
+                flag = 1;
             }
-            break;
         }
     }
 
-    printf("%d %d", x, y);
+    if (flag == 0)
+    {
+        printf("No\n");
+    }
+    else
+    {
+        printf("Yes\n");
+    }
 
     return 0;
 }
