@@ -8,15 +8,14 @@ void hello(int i)
         return;
     }
 
-    printf("%d\n", i);
     hello(i + 1);
+    printf("%d\n", i);
 }
 
 int main()
 {
 
-    int i = 1;
-    hello(i);
+    hello(1);
 
     return 0;
 }

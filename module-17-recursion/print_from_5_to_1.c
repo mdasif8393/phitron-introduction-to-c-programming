@@ -12,8 +12,9 @@ void hello(int i)
 
 int main()
 {
+    int i = 6;
 
-    hello(5);
+    hello(i);
 
     return 0;
 }
