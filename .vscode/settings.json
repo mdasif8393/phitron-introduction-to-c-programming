@@ -5,5 +5,6 @@
     "xutility": "c",
     "string.h": "c"
   },
-  "cSpell.words": ["jadu"]
+  "cSpell.words": ["jadu"],
+  "C_Cpp.errorSquiggles": "disabled"
 }
