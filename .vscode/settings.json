@@ -4,5 +4,6 @@
     "stdio.h": "c",
     "xutility": "c",
     "string.h": "c"
-  }
+  },
+  "cSpell.words": ["jadu"]
 }
