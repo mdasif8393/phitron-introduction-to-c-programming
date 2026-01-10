@@ -6,7 +6,7 @@ int main()
     // printf("%d", *a);
     int *p;
     p = a + 3;
-    *p = 5;
+    // *p = 5;
     printf("%d", a[3]);
     return 0;
 }

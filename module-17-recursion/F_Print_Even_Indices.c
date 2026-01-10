@@ -8,7 +8,7 @@ void array_recursion(int a[], int n, int i)
         return;
     }
 
-    array_recursion(a, n, i + 2);
+    array_recursion(a, n, i + 1);
     printf("%d ", a[i]);
 }
 

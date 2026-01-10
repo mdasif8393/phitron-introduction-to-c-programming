@@ -2,6 +2,7 @@
 
 void fun(int *p)
 {
+    // change value of x
     // *p = 20;
     printf("%d", *p);
 }
