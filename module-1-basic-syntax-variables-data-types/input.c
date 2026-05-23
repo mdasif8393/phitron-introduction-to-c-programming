@@ -1,12 +1,11 @@
-#include<stdio.h>
-int main(){
+#include <stdio.h>
 
-    double d = 12121212.121212112;
+int main()
+{
 
-    printf("%lf", d);
-
-
-
+    double d;
+    scanf("%lf", &d);
+    printf("%.2lf", d);
 
     return 0;
 }
