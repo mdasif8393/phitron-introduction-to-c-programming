@@ -1,17 +1,18 @@
 // Write a c program to print 8’s time table to 200
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main()
+{
 
+    for (int i = 100; i >= 1; i--)
+    {
 
-    for(int i = 100; i >= 1; i--){
-
-        if(i % 2 != 0){
+        if (i % 2 != 0)
+        {
             printf("%d\n", i);
         }
     }
-    
 
     return 0;
 }
