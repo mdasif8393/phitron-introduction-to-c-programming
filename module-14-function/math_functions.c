@@ -4,7 +4,7 @@
 int main()
 {
 
-    int ans = abs(-4);
+    int ans = round(2.4);
     printf("%d", ans);
     return 0;
 }
