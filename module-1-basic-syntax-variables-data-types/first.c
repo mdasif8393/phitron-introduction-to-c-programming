@@ -1,19 +1,36 @@
+//* Data type:
+// int → %d
+// float → %f
+// double → %lf
+// char → %c
+
+// #include <stdio.h>
+
+// int main()
+// {
+
+//     int num1;
+//     int num2;
+//     float f = 1.22444;
+//     char c = '@';
+
+//     num1 = 10;
+//     num2 = 11;
+
+//     printf("Number 1 and 2 is: %d %d", num2, num1);
+//     printf("Float value is: %.2f", f);
+//     printf("Character is: %c", c);
+
+//     return 0;
+// }
+
 #include <stdio.h>
 
 int main()
 {
 
-    int num1;
-    int num2;
-    float f = 1.22444;
-    char c = '@';
-
-    num1 = 10;
-    num2 = 11;
-
-    printf("Number 1 and 2 is: %d %d", num2, num1);
-    printf("Float value is: %.2f", f);
-    printf("Character is: %c", c);
+    char c = 'a';
+    printf("%c", c);
 
     return 0;
 }
