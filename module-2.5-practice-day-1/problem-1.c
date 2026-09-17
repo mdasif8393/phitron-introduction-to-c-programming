@@ -1,19 +1,37 @@
 // In this problem you will be given an integer number N. Print "Zero" if the number is equals to 0 and "Non Zero" Otherwise.
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main(){
+// int main(){
 
-    int num;
+//     int num;
 
-    scanf("%d", &num);
+//     scanf("%d", &num);
 
-    if(num == 0){
+//     if(num == 0){
+//         printf("Zero");
+//     }
+//     else{
+//         printf("Non Zero");
+//     }
+
+//     return 0;
+// }
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+
+    if (n == 0)
+    {
         printf("Zero");
     }
-    else{
+    else
+    {
         printf("Non Zero");
     }
-
     return 0;
 }
