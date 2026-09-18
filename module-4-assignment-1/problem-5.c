@@ -16,23 +16,29 @@
 
 // If no one can buy anything print "Bad luck!"
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main(){
+// int main(){
 
-    int N;
-    scanf("%d", &N);
-    if(N >= 1500){
-        printf("I will buy Punjabi\nI will buy new shoes\nAlisa will buy new shoes");
-    }
-    else if(N > 1000 && N < 1500){
-        printf("I will buy Punjabi\n");
-    }
-    else{
-        printf("Bad luck!\n");
-    }
+//     int N;
+//     scanf("%d", &N);
+//     if(N >= 1500){
+//         printf("I will buy Punjabi\nI will buy new shoes\nAlisa will buy new shoes");
+//     }
+//     else if(N > 1000 && N < 1500){
+//         printf("I will buy Punjabi\n");
+//     }
+//     else{
+//         printf("Bad luck!\n");
+//     }
 
-   
+//     return 0;
+// }
+
+#include <stdio.h>
+
+int main()
+{
 
     return 0;
 }
