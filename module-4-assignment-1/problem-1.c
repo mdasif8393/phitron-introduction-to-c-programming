@@ -6,12 +6,22 @@
 
 // I want to give my 100% dedication to learn!	I will succeed one day.
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main(){
+// int main(){
 
+//     printf("Hello, world! I am learning C programming language. ^_^\n");
+//     printf("Programming is fun and challenging. /\\/\\/\\\n");
+//     printf("I want to give my 100%% dedication to learn!\tI will succeed one day.");
+//     return 0;
+// }
+
+#include <stdio.h>
+
+int main()
+{
     printf("Hello, world! I am learning C programming language. ^_^\n");
     printf("Programming is fun and challenging. /\\/\\/\\\n");
-    printf("I want to give my 100%% dedication to learn!\tI will succeed one day.");
+    printf("I want to give my 100%% dedication to learn!\t I will succeed one day.");
     return 0;
 }

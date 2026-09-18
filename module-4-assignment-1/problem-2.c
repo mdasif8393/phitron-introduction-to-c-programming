@@ -1,15 +1,25 @@
 // You will be given two integers A and B. You need to give output their multiplication.
 
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+// int main()
+// {
 
-    long long A, B;
-    scanf("%lld %lld", &A, &B);
+//     long long A, B;
+//     scanf("%lld %lld", &A, &B);
 
-    long long multiply = A * B;
+//     printf("%lld", A * B);
 
-    printf("%lld", multiply);
-    
+//     return 0;
+// }
+
+#include <stdio.h>
+
+int main()
+{
+    long long int a, b;
+    scanf("%lld %lld", &a, &b);
+
+    printf("%lld", a * b);
     return 0;
 }

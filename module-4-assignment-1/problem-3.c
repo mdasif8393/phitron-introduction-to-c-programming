@@ -1,20 +1,37 @@
 // You will be given a non-negative integer N, you need to tell if this number is divisible by 3 or not. If it is divisible by 3 output "YES" otherwise output "NO" without the quotation mark.
 
+// #include<stdio.h>
 
-#include<stdio.h>
+// int main(){
 
-int main(){
+//     int N;
 
-    int N;
+//     scanf("%d", &N);
 
-    scanf("%d", &N);
+//     if(N % 3 == 0){
+//         printf("YES");
+//     }
+//     else{
+//         printf("NO");
+//     }
 
-    if(N % 3 == 0){
+//     return 0;
+// }
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+
+    if (n % 3 == 0)
+    {
         printf("YES");
     }
-    else{
+    else
+    {
         printf("NO");
     }
-    
     return 0;
 }
