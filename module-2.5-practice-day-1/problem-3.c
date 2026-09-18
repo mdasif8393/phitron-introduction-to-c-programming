@@ -1,21 +1,39 @@
-// In this problem you will be given two integers a and b, you have to tell if one is the multiple of other. (a is the multiple of b or b is the multiple of a). 
+// In this problem you will be given two integers a and b, you have to tell if one is the multiple of other. (a is the multiple of b or b is the multiple of a).
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main(){
+// int main(){
 
-    int a;
-    int b;
+//     int a;
+//     int b;
 
-    scanf("%d", &a);
-    scanf("%d", &b);
+//     scanf("%d", &a);
+//     scanf("%d", &b);
 
-    if((a % b == 0) || (b % a == 0)){
-        printf("Yes");
+//     if((a % b == 0) || (b % a == 0)){
+//         printf("Yes");
+//     }
+//     else{
+//         printf("No");
+//     }
+
+//     return 0;
+// }
+
+#include <stdio.h>
+
+int main()
+{
+    int a, b;
+    scanf("%d %d", &a, &b);
+
+    if (a % b == 0 || b % a == 0)
+    {
+        printf("YES");
     }
-    else{
-        printf("No");
+    else
+    {
+        printf("NO");
     }
-
     return 0;
 }
