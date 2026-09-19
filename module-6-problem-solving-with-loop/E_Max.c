@@ -8,22 +8,46 @@
 // Output
 // Print the maximum number.
 
-#include<stdio.h>
-#include<limits.h>
+// #include<stdio.h>
+// #include<limits.h>
 
+// int main(){
 
-int main(){
-    
-    int n, x;
+//     int n, x;
+//     scanf("%d", &n);
+//     int max = INT_MIN ;
+
+//     for(int i =1; i<=n; i++){
+//         scanf("%d", &x);
+//         if( x > max ){
+//             max = x;
+//         }
+
+//     }
+
+//     printf("%d", max);
+//     return 0;
+// }
+
+#include <stdio.h>
+#include <limits.h>
+
+int main()
+{
+    int n;
     scanf("%d", &n);
-    int max = INT_MIN ;
 
-    for(int i =1; i<=n; i++){
+    int max = INT_MIN;
+
+    while (n--)
+    {
+        int x;
         scanf("%d", &x);
-        if( x > max ){
+
+        if (x > max)
+        {
             max = x;
         }
-
     }
 
     printf("%d", max);
