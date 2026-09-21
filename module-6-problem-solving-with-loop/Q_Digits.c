@@ -1,25 +1,31 @@
 // Given a number N. Print the digits of that number from right to left separated by space.
-#include<stdio.h>
+// #include<stdio.h>
+
+#include <stdio.h>
 
 int main()
 {
     int t;
     scanf("%d", &t);
 
-    for(int i =1; i<=t; i++)
+    while (t--)
     {
         int n;
         scanf("%d", &n);
-        if(n == 0)
+
+        if (n == 0)
         {
             printf("0");
         }
-
-        while(n != 0)
+        else
         {
-            printf("%d ", n%10);
-            n /=10;
+            while (n != 0)
+            {
+                printf("%d ", n % 10);
+                n /= 10;
+            }
         }
+
         printf("\n");
     }
 

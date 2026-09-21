@@ -1,29 +1,59 @@
 // https://codeforces.com/group/MWSDmqGsZm/contest/219432/problem/G
 
-#include<stdio.h>
+// #include<stdio.h>
 
-int main(){
-    int x;
-    scanf("%d", &x);
+// int main(){
+//     int x;
+//     scanf("%d", &x);
 
-    for(int i =1; i<=x; i++)
+//     for(int i =1; i<=x; i++)
+//     {
+//         int n;
+//         scanf("%d", &n);
+//         long long fac = 1;
+
+//         if(n == 0){
+//            fac = 1;
+//         }
+//         else
+//         {
+//             for(int i =1; i<=n; i++)
+//             {
+//                 fac = fac * i;
+//             }
+//         }
+//         printf("%lld\n", fac);
+//     }
+
+//     return 0;
+// }
+
+#include <stdio.h>
+
+int main()
+{
+    int n;
+    scanf("%d", &n);
+
+    while (n--)
     {
-        int n;
-        scanf("%d", &n);
-        long long fac = 1;
+        int x;
+        scanf("%d", &x);
 
-        if(n == 0){
-           fac = 1;
+        if (x == 0)
+        {
+            printf("1");
         }
         else
         {
-            for(int i =1; i<=n; i++)
+            int fac = 1;
+            for (int i = 1; i <= x; i++)
             {
-                fac = fac * i;
-            } 
+                fac *= i;
+            }
+
+            printf("%d\n", fac);
         }
-        printf("%lld\n", fac);
     }
-    
     return 0;
 }
