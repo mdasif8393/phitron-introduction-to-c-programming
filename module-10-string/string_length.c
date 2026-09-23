@@ -1,21 +1,34 @@
+// #include <stdio.h>
+// #include <string.h>
+
+// int main()
+// {
+//     char s[101];
+//     scanf("%s", &s);
+
+//     // int count = 0;
+
+//     // for (int i = 0; s[i] != '\0'; i++)
+//     // {
+//     //     count++;
+//     // }
+
+//     int size = strlen(s);
+
+//     printf("%d", size);
+
+//     return 0;
+// }
+
 #include <stdio.h>
 #include <string.h>
 
 int main()
 {
-    char s[101];
-    scanf("%s", &s);
 
-    // int count = 0;
+    char s[10] = "Hello";
 
-    // for (int i = 0; s[i] != '\0'; i++)
-    // {
-    //     count++;
-    // }
-
-    int size = strlen(s);
-
-    printf("%d", size);
+    printf("%d", strlen(s));
 
     return 0;
 }
