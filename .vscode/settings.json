@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.dbclient-js": "javascript",
+    "stdio.h": "c",
+    "xutility": "c",
+    "string.h": "c"
+  },
+  "cSpell.words": ["jadu"],
+  "C_Cpp.errorSquiggles": "disabled"
+}
