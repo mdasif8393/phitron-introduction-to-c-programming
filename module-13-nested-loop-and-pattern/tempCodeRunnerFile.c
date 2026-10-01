@@ -7,20 +7,20 @@ int main()
     int star = 1;
     int space = n - 1;
 
-    for (int i = 1; i <= n; i++) // for printing line
+    for (int i = 1; i <= n; i++)
     {
-        for (int j = space; j >= 1; j--) // for printing space
+        for (int j = 1; j <= space; j++)
         {
             printf(" ");
         }
-
-        for (int k = 1; k <= star; k++) // for printing *
+        for (int k = 1; k <= star; k++)
         {
             printf("*");
         }
         printf("\n");
-        star += 2;
+        star++;
         space--;
     }
+
     return 0;
 }
