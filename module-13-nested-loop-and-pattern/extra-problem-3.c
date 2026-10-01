@@ -1,23 +1,50 @@
+// #include <stdio.h>
+
+// int main()
+// {
+//     int n;
+//     scanf("%d", &n);
+//     int space = 0;
+
+//     for (int i = n; i >= 1; i--)
+//     {
+//         for (int k = 1; k <= space; k++)
+//         {
+//             printf(" ");
+//         }
+//         for (int j = i; j >= 1; j--)
+//         {
+//             printf("*");
+//         }
+//         printf("\n");
+//         space++;
+//     }
+//     return 0;
+// }
+
 #include <stdio.h>
 
 int main()
 {
     int n;
     scanf("%d", &n);
-    int space = 0;
 
-    for (int i = n; i >= 1; i--)
+    int space = n - 1, digit = 1;
+
+    for (int i = 1; i <= n; i++)
     {
-        for (int k = 1; k <= space; k++)
+        for (int j = 1; j <= space; j++)
         {
             printf(" ");
         }
-        for (int j = i; j >= 1; j--)
+        for (int k = 1; k <= digit; k++)
         {
-            printf("*");
+            printf("%d ", k);
         }
+
+        space--;
+        digit++;
         printf("\n");
-        space++;
     }
     return 0;
 }
